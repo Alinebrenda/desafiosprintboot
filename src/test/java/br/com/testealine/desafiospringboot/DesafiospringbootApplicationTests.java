@@ -43,6 +43,7 @@ class DesafiospringbootApplicationTests {
 		trabalhadorDTO.setSexo("FEMININO");
 		trabalhadorDTO.setIdCargo(1L);
 		trabalhadorDTO.setIdCargo(2L);
+		trabalhadorController.salvarTrabalhador(trabalhadorDTO);
 	}
 
 }
